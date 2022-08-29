@@ -1,2 +1,4 @@
-# db
-数据库
+# DB
+
+> package `github.com/asydevc/db`.
+

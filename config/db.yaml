@@ -1,0 +1,18 @@
+#
+# package: github.com/asydevc/db.
+# template: db
+#
+# [driver]
+# [dsn]
+# [max-idle]
+# [max-open]
+# [max-lifetime]
+# [mapper]
+#
+driver: "mysql"
+dsn:
+  - "root:pass@tcp(127.0.0.1:3306)/test?charset=utf8"
+max-idle: 16
+max-open: 128
+max-lifetime: 60
+mapper: "same"
