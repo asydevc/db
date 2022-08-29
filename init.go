@@ -4,6 +4,7 @@
 package db
 
 import (
+	"github.com/asydevc/log/v2"
 	"sync"
 )
 

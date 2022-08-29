@@ -4,6 +4,7 @@
 package tests
 
 import (
+	"github.com/asydevc/log/v2"
 	"sync"
 	"testing"
 	"time"
