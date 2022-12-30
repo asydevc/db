@@ -4,10 +4,10 @@
 package db
 
 import (
-	"github.com/asydevc/log/v2"
 	"gopkg.in/yaml.v3"
 	"io/ioutil"
 	"time"
+	"xorm.io/xorm/log"
 
 	"github.com/asydevc/log/v2/plugins"
 	_ "github.com/go-sql-driver/mysql"
@@ -45,7 +45,7 @@ func (o *configuration) LoadYaml(path string) error {
 
 // 初始化配置.
 func (o *configuration) initialize() {
-	for _, path := range []string{"./tmp/db.yaml", "./config/db.yaml", "../config/db.yaml"} {
+	for _, path := range []string{"./tmp/db.yaml", "./config/db.yaml", "../config/db.yaml", "../../configs/db.yaml"} {
 		if o.LoadYaml(path) == nil {
 			break
 		}
