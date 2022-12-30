@@ -9,7 +9,7 @@ import (
 	"time"
 	"xorm.io/xorm/log"
 
-	"github.com/asydevc/log/v2/plugins"
+	"github.com/asydevc/log/v2"
 	_ "github.com/go-sql-driver/mysql"
 	"xorm.io/xorm"
 	"xorm.io/xorm/names"
