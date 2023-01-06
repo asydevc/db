@@ -7,9 +7,9 @@ import (
 	"gopkg.in/yaml.v3"
 	"io/ioutil"
 	"time"
-	"xorm.io/xorm/log"
 
 	"github.com/asydevc/log/v2"
+	"github.com/asydevc/log/v2/plugins"
 	_ "github.com/go-sql-driver/mysql"
 	"xorm.io/xorm"
 	"xorm.io/xorm/names"
